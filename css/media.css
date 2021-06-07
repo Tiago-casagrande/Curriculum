@@ -7,10 +7,10 @@
 @keyframes scroll-down {
     0%,
     100% {
-        border-color: #3b9da6;
+        border-color: #ffffff;
     }
     50% {
-        border-color: #1a5b5f;
+        border-color: #000000;
     }
 }
 
@@ -40,7 +40,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #073438;
+    background-color: #000000;
 }
 
 ::-webkit-scrollbar {
@@ -49,8 +49,8 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #56ced6;
-    border: 2px solid #073438;
+    background-color: #ffffff;
+    border: 2px solid #000000;
 }
 .print-only{
     display:none;
@@ -112,7 +112,7 @@
 }
 
 .bgPrimaryColor {
-    background-color: #2c767c;
+    background-color: #030057;
     color: #fff;
 }
 
@@ -173,7 +173,7 @@ a:visited:after {
     width: 100%;
     bottom: -4px;
     height: 2px;
-    background-color: #56ced6;
+    background-color: #ffffff;
     -webkit-transform: scale3d(0, 1, 1);
     -o-transform: scale3d(0, 1, 1);
     -ms-transform: scale3d(0, 1, 1);
@@ -207,9 +207,9 @@ a:hover:after {
 
 a.btn,
 input[type=submit] {
-    border: 1px solid #4ebac1!important;
-    background-color: #56ced6;
-    color: #073438;
+    border: 1px solid #ffffff!important;
+    background-color: #0901FF;
+    color: #ffffff;
     border-width: 0;
     font-size: 1em;
     padding: .8em 2em;
@@ -258,7 +258,7 @@ a.btn:link,
 a.btn:visited,
 input[type=submit]:link,
 input[type=submit]:visited {
-    color: #000000;
+    color: #ffffff;
 }
 
 a.btn:link:after,
@@ -272,7 +272,7 @@ a.btn:active,
 a.btn:hover,
 input[type=submit]:active,
 input[type=submit]:hover {
-    background-color: #4ebac1;
+    background-color: #030057;
     text-decoration: none;
     /* color: #b0faff; */
     box-shadow: none;
@@ -492,7 +492,7 @@ nav ul.menu>li a:visited.current:before {
     content: '';
     display: block;
     border-top: 10px solid transparent;
-    border-left: 20px solid #5ee5ee;
+    border-left: 20px solid #ffffff;
     border-bottom: 10px solid transparent;
 }
 
@@ -503,11 +503,11 @@ nav ul.menu>li a:visited:after {
 
 nav ul.menu>li a:active,
 nav ul.menu>li a:hover {
-    color: #06e8f7;
+    color: #030057;
 }
 nav ul.menu>li a:active,
 nav ul.menu>li a:hover {
-    color: #06e8f7;
+    color: #0901FF;
 }
 nav ul.menu>li a.print-page:active,
 nav ul.menu>li a.print-page:hover {
@@ -547,16 +547,16 @@ nav button.open-menu:before {
     right: 0;
     width: 100%;
     height: 6px;
-    background-color: #014b51;
+    background-color: #ffffff;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
 }
 nav button.open-menu.tiny:before{
-    box-shadow: 0px 16px 0 #014b51;
+    box-shadow: 0px 16px 0 #ffffff;
 }
 nav button.open-menu:before {
-    box-shadow: 0px 20px 0 #014b51;
+    box-shadow: 0px 20px 0 #ffffff;
 }
 nav button.open-menu.tiny:after{    
     -webkit-transform: translate3d(0, 32px, 0);
@@ -573,7 +573,7 @@ nav button.open-menu:after {
 }
 
 nav.opened {
-    background-color: #112e31eb;
+    background-color: #070857d0;
     width: 70%;
     height: 100%;
 }
@@ -616,10 +616,10 @@ nav.opened button.open-menu:after {
 }
 
 nav:not(.opened) button.open-menu:hover:before {
-    box-shadow: 0px 17px 0 #014b51;
+    box-shadow: 0px 17px 0 #ffffff;
 }
 nav:not(.opened) button.open-menu.tiny:hover:before{
-    box-shadow: 0px 14px 0 #014b51;
+    box-shadow: 0px 14px 0 #ffffff;
 }
 nav:not(.opened) button.open-menu:hover:after {
     -webkit-transform: translate3d(0, 34px, 0);
@@ -637,7 +637,7 @@ nav:not(.opened) button.open-menu.tiny:hover:after {
 section {
     padding: 60px;
     position: relative;
-    border-left: 1px solid #2c767c66;
+    border-left: 1px solid #000000;
 }
 
 section.no-padding-top {
@@ -655,13 +655,13 @@ section.section-profile{
     margin: 0;
     pointer-events: none;
     top: 18px;
-    color: #073438;
+    color: #ffffff;
 }
 
 section.section-profile h1 {
     margin-top: 10%;
     font-size: 4em;
-    color: #073438;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 10px;
     font-weight: 500;
@@ -678,7 +678,7 @@ section.section-profile img.profile-pic{
     width: auto;
     margin: auto;
     border-radius: 100%;
-    box-shadow: 0 0 0 5px #2c767c;
+    box-shadow: 0 0 0 5px #ffffff;
     position: relative;
     overflow: hidden;
     pointer-events: all;
@@ -726,7 +726,7 @@ section.section-hero {
     background-color: #fff;
     /* height: 100%; */
     /* position: relative; */
-    color: #073438;
+    color: #ffffff;
     /* display: -webkit-flex; */
     /* display: flex; */
     /* flex-direction: column; */
@@ -746,10 +746,9 @@ section.section-hero .hero-slides {
     content: '';
     display: block;
     z-index: 1;
-    opacity: .5;
     /* -webkit-filter: brightness(1.6); */
-    -moz-filter: brightness(1.6);
-    filter: brightness(1.3);
+
+
 }
 
 section.section-hero .hero-slides .animated {
@@ -902,7 +901,7 @@ section.section-hero .btm ul.connect>li a:hover {
     z-index: 99;
     right: 0;
     width: 15%;
-    fill: #76ebf3;
+    fill: #070857;
     filter: drop-shadow(0 0px 4px rgba(0, 0, 0, 0.1));;
 }
 
@@ -915,11 +914,11 @@ section.section-hero svg.hero-triangles {
 }
 
 section.section-hero svg.hero-triangles>.primary-triangle {
-    fill: #56ced6;
+    fill: #070857;
 }
 
 section.section-hero svg.hero-triangles>.gray-triangle {
-    fill: #000;
+    fill: #070857;
     opacity: .1;
 }
 
@@ -958,7 +957,7 @@ section.section-about-me svg.triangle {
 }
 
 section.section-about-me svg.triangle>path {
-    fill: #56ced6;
+    fill:#070857;
     pointer-events: none;
 }
 
@@ -988,7 +987,7 @@ section.section-about-me .details ul>li{
     margin-bottom: 13px;
 }
 section.section-about-me .details ul>li .field-title {
-    color: #2c767c;
+    color: #0901FF;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -997,7 +996,7 @@ section.section-about-me .details ul>li .field-title {
 }
 
 section.section-about-me .details ul>li .field-content {
-    color: #4d4d4d;
+    color: #000000;
     font-size: 1.2em
 }
 
@@ -1036,14 +1035,14 @@ section.section-experience-education svg.triangle {
 }
 
 section.section-experience-education svg.triangle>path {
-    fill: #56ced6;
+    fill: #0F3E4F;
     width: 60%;
     opacity: .1;
     pointer-events: none;
 }
 
 section.section-experience-education ul{
-    color: #aaf9ff;
+    color: #000000;
     font-size: 10px;
     letter-spacing: 2px;
     /* font-family: Oswald, sans-serif; */
@@ -1167,7 +1166,7 @@ section ul.timeline>li h3 {
 }
 
 section ul.timeline>li h4 {
-    color: #70ced6;
+    color: #ffffff;
     font-size: 16px!important;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -1203,7 +1202,7 @@ section ul.timeline>li:before {
     transform: translateY(-50%);
     content: '';
     display: block;
-    background-color: #2c767c;
+    background-color:#030057;
 }
 section ul.timeline>li .icon {
     z-index: 1;
@@ -1235,7 +1234,7 @@ section ul.timeline>li:nth-child(even):after {
 }
 section ul.timeline>li.timeline-item.collapsed h4,
 section ul.timeline>li:hover h4{
-    color: #adffff;
+    color: #ffffff;
 }
 section ul.timeline>li.timeline-item.collapsed:after,
 section ul.timeline>li:hover:after{
@@ -1329,7 +1328,7 @@ section ul.timeline>li .icon:after {
     border-radius: 20px;
     box-shadow: 0 0 0 4px #fff;
     top: 50%;
-    background-color: #4eb8bf;
+    background-color: #ffffff;
 }
 
 section ul.timeline>li:before {
@@ -1487,7 +1486,7 @@ section.section-skills-knowledge .skill-item {
 section.section-skills-knowledge .skill-icon {
     text-align: center;
     font-size: 77px;
-    color: #2c767c;
+    color: #030057;
     line-height: 1;
     margin-bottom: .2em;
 }
@@ -1584,7 +1583,7 @@ section.section-portfolio>svg.triangle {
 }
 
 section.section-portfolio>svg.triangle>path {
-    fill: #4ebac1
+    fill: #ffffff
 }
 
 section.section-portfolio h2 {
@@ -1658,7 +1657,7 @@ section.section-portfolio .portfolio-overlay .portfolio-modal ul.modal-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #56d6a3;
+    background-color: #000000;
     color: #fff;
     display: -webkit-flex;
     display: flex;
@@ -1696,7 +1695,7 @@ section.section-portfolio .portfolio-overlay .portfolio-modal ul.modal-nav:befor
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #56ced6;
+    background-color: #ffffff;
     width: 60px;
     height: 60px;
     box-shadow: 5px 5px 16px rgba(0, 0, 0, .2);
@@ -1721,7 +1720,7 @@ section.section-portfolio .portfolio-overlay .portfolio-modal ul.modal-nav>li {
     width: 0;
     height: 40px;
     line-height: 40px;
-    background-color: #56ced6;
+    background-color: #000000;
     z-index: 2;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -1898,7 +1897,7 @@ section.section-portfolio ul.portfolio-cats>li:last-child {
 
 section.section-portfolio ul.portfolio-cats>li a.current:link,
 section.section-portfolio ul.portfolio-cats>li a.current:visited {
-    color: #0d7e86;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -2041,7 +2040,7 @@ section.section-testimonials.triangle:before {
     left: 0;
     width: 50%;
     height: 50%;
-    background-color: #56ced6;
+    background-color: #000000;
     -webkit-transform-origin: 0 bottom;
     transform-origin: 0 bottom;
     -webkit-transform: rotate(45deg);
@@ -2071,7 +2070,7 @@ section.section-testimonials>svg.triangle {
 }
 
 section.section-testimonials>svg.triangle>path {
-    fill: #4ebac1
+    fill: #73E8FF
 }
 section.section-testimonials .testimonial {
     display: -webkit-flex;
@@ -2152,7 +2151,7 @@ section.section-testimonials .testimonial .person .profile-pic {
     width: 120px;
     height: 120px;
     border-radius: 100%;
-    box-shadow: 0 0 0 5px #2c767c;
+    box-shadow: 0 0 0 5px #000000;
     position: relative;
     overflow: hidden;
 }
@@ -2330,7 +2329,7 @@ section.section-contact>.left .contact-main .contact-info h3 {
 
 section.section-contact>.left .contact-main .contact-info a:link,
 section.section-contact>.left .contact-main .contact-info a:visited {
-    color: #72b4b8;
+    color: #030057;
 }
 
 section.section-contact>.left .contact-main form {
@@ -2455,7 +2454,7 @@ section.section-contact>.right ul.connect a:visited:after {
 
 section.section-contact>.right ul.connect a:active,
 section.section-contact>.right ul.connect a:hover {
-    background-color: #42a2a8
+    background-color: #000000
 }
 
 section.section-contact>.right ul.connect>li {
@@ -2485,7 +2484,7 @@ section.section-contact p {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #2c767c;
+    background: #000000;
 }
 
 @media only screen and (min-width:768px){    
